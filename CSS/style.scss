@@ -7,15 +7,13 @@ body {
   font: 0.8rem "Poppins", "Open Sans", sans-serif;
   color: white;
   background: $violet url("/images/bg-mobile.svg") top / cover no-repeat;
-  padding: 5em 1.5em;
+  padding: 3em 1.5em;
 }
 
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  min-height: 100vh;
 }
 
 #illustration {
@@ -39,7 +37,6 @@ main {
 
   button {
     margin-top: 1.5em;
-    width: 20em;
     width: min(17.5em, 80%);
     border-radius: 35px;
     border: none;
@@ -75,7 +72,7 @@ main {
 @media only screen and (min-width: 32em) {
   body {
     font-size: 1rem;
-    padding: 0 2.8em;
+    padding: 3em 2.8em;
   }
 
   #text {
@@ -89,7 +86,19 @@ main {
   }
 }
 
-@media only screen and (min-width: 74em) {
+@media only screen and (min-width: 85em) {
+  body {
+    background-image: url("/images/bg-desktop.svg");
+    padding: 0 2.8em;
+  }
+
+  main {
+    justify-content: center;
+    width: 80em;
+    margin: 0 auto;
+    min-height: 100vh;
+  }
+
   #logo {
     margin-right: auto;
   }

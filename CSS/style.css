@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 0.8rem "Poppins", "Open Sans", sans-serif;
+  color: white;
+  background: hsl(257, 40%, 49%) url("/images/bg-mobile.svg") top/cover no-repeat;
+  padding: 5em 1.5em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#illustration {
+  width: 100%;
+  margin-top: 6em;
+}
+
+#text {
+  text-align: center;
+  margin-top: 5em;
+}
+#text h1 {
+  font-size: 1.92rem;
+}
+#text p {
+  margin-top: 1.5em;
+  font-weight: 400;
+  font-size: 1.08rem;
+}
+#text button {
+  margin-top: 1.5em;
+  width: 20em;
+  width: min(17.5em, 80%);
+  border-radius: 35px;
+  border: none;
+  background-color: white;
+  box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.3);
+  padding: 1em;
+  font-size: 1.35rem;
+  color: hsl(257, 40%, 49%);
+  font-weight: 400;
+}
+#text button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+  cursor: pointer;
+}
+
+#socials {
+  margin: 5em 0 0;
+  display: flex;
+  gap: 1.25em;
+}
+#socials img {
+  width: 3.2em;
+}
+#socials img:hover {
+  background-color: hsl(300, 69%, 71%);
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 32em) {
+  body {
+    font-size: 1rem;
+    padding: 0 2.8em;
+  }
+  #text h1 {
+    font-size: 2.4rem;
+  }
+  #text p {
+    font-size: 1.35rem;
+  }
+}
+@media only screen and (min-width: 74em) {
+  #logo {
+    margin-right: auto;
+  }
+  #image-text {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+  }
+  #image-text * {
+    flex: 1;
+  }
+  #text {
+    text-align: left;
+    align-self: center;
+  }
+  #socials {
+    margin-left: auto;
+  }
+}/*# sourceMappingURL=style.css.map */

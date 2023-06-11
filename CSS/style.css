@@ -81,7 +81,7 @@ main {
 }
 @media only screen and (min-width: 85em) {
   body {
-    background-image: url("/images/bg-desktop.svg");
+    background-image: url("../images/bg-desktop.svg");
     padding: 0 2.8em;
   }
   main {

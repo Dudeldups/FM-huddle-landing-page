@@ -6,7 +6,7 @@ $soft-magenta: hsl(300, 69%, 71%);
 body {
   font: 0.8rem "Poppins", "Open Sans", sans-serif;
   color: white;
-  background: $violet url("/images/bg-mobile.svg") top / cover no-repeat;
+  background: $violet url("../images/bg-mobile.svg") top / cover no-repeat;
   padding: 3em 1.5em;
 }
 

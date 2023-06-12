@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution on Frontend Mentor](https://your-solution-url.com)
+- [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/htmlscss-huddle-landing-page-hHCsoOKmWO)
 - [Live Site](https://dudeldups.github.io/FM-huddle-landing-page/)
 
 ## My process
